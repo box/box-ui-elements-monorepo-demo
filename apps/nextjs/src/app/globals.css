@@ -1,0 +1,7 @@
+.ElementSection {
+    width: 100%;
+    height: 500px;
+    border: 1px solid #ccc;
+    justify-items: center;
+    align-content: center;
+}
