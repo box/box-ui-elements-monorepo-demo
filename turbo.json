@@ -7,12 +7,15 @@
     },
     "build": {
       "dependsOn": ["^build"],
-      "outputs": ["dist/**"]
+      "outputs": ["dist/**",".next/**"]
     },
     "dev": {
       "cache": false
     },
     "install": {
+      "cache": false
+    },
+    "preview": {
       "cache": false
     }
   }
